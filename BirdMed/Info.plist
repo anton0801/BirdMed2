@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We use your activity to provide relevant offers and measure app performance.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow BirdMed to access your camera to add photos to notes.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow BirdMed to access your photo library to add images to notes.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>processing</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>paytmmp</string>
+		<string>paytm</string>
+		<string>phonepe</string>
+		<string>bankid</string>
+		<string>tez</string>
+		<string>gpay</string>
+		<string>bhim</string>
+		<string>upi</string>
+		<string>credpay</string>
+		<string>whatsapp</string>
+		<string>tg</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BagelFatOne-Regular.ttf</string>
+	</array>
+</dict>
+</plist>

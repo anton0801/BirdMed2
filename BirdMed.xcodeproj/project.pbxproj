@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC4A0CD2FC861FA003F2BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4A0CC2FC861FA003F2BE2 /* Assets.xcassets */; };
+		3AC4A0D02FC861FA003F2BE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4A0CF2FC861FA003F2BE2 /* Preview Assets.xcassets */; };
+		3AC4C0012FC861FA003F2BE2 /* BirdMedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0012FC861FA003F2BE2 /* BirdMedApp.swift */; };
+		3AC4C0032FC861FA003F2BE2 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0032FC861FA003F2BE2 /* DesignSystem.swift */; };
+		3AC4C0042FC861FA003F2BE2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0042FC861FA003F2BE2 /* Models.swift */; };
+		3AC4C0052FC861FA003F2BE2 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0052FC861FA003F2BE2 /* DataStore.swift */; };
+		3AC4C0062FC861FA003F2BE2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0062FC861FA003F2BE2 /* SplashView.swift */; };
+		3AC4C0072FC861FA003F2BE2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0072FC861FA003F2BE2 /* OnboardingView.swift */; };
+		3AC4C0082FC861FA003F2BE2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0082FC861FA003F2BE2 /* MainTabView.swift */; };
+		3AC4C0092FC861FA003F2BE2 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0092FC861FA003F2BE2 /* DashboardView.swift */; };
+		3AC4C00A2FC861FA003F2BE2 /* BirdGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00A2FC861FA003F2BE2 /* BirdGroupsView.swift */; };
+		3AC4C00B2FC861FA003F2BE2 /* CoopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00B2FC861FA003F2BE2 /* CoopsView.swift */; };
+		3AC4C00C2FC861FA003F2BE2 /* VaccinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00C2FC861FA003F2BE2 /* VaccinationView.swift */; };
+		3AC4C00D2FC861FA003F2BE2 /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00D2FC861FA003F2BE2 /* MedicationsView.swift */; };
+		3AC4C00E2FC861FA003F2BE2 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00E2FC861FA003F2BE2 /* CalendarView.swift */; };
+		3AC4C00F2FC861FA003F2BE2 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B00F2FC861FA003F2BE2 /* TasksView.swift */; };
+		3AC4C0102FC861FA003F2BE2 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0102FC861FA003F2BE2 /* AlertsView.swift */; };
+		3AC4C0112FC861FA003F2BE2 /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0112FC861FA003F2BE2 /* RecommendationsView.swift */; };
+		3AC4C0122FC861FA003F2BE2 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0122FC861FA003F2BE2 /* NotesView.swift */; };
+		3AC4C0132FC861FA003F2BE2 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0132FC861FA003F2BE2 /* ReportsView.swift */; };
+		3AC4C0142FC861FA003F2BE2 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0142FC861FA003F2BE2 /* ExpensesView.swift */; };
+		3AC4C0152FC861FA003F2BE2 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0152FC861FA003F2BE2 /* HistoryView.swift */; };
+		3AC4C0162FC861FA003F2BE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0162FC861FA003F2BE2 /* SettingsView.swift */; };
+		3AC4C0202FC861FA003F2BE2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4B0202FC861FA003F2BE2 /* PrivacyInfo.xcprivacy */; };
+		3AC4C0212FC861FA003F2BE2 /* MedicalSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0212FC861FA003F2BE2 /* MedicalSafety.swift */; };
+		3AC4C0222FC861FA003F2BE2 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4B0222FC861FA003F2BE2 /* DemoData.swift */; };
+		B00200000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000001 /* AppDelegate.swift */; };
+		B00200000000000000000002 /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000002 /* AppsFlyerManager.swift */; };
+		B00200000000000000000003 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000003 /* ConfigService.swift */; };
+		B00200000000000000000004 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000004 /* NetworkMonitor.swift */; };
+		B00200000000000000000005 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000005 /* NoInternetView.swift */; };
+		B00200000000000000000006 /* PrePermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000006 /* PrePermissionView.swift */; };
+		B00200000000000000000007 /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000007 /* PushManager.swift */; };
+		B00200000000000000000008 /* PushRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000008 /* PushRouter.swift */; };
+		B00200000000000000000009 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10100000000000000000009 /* RootViewModel.swift */; };
+		B0020000000000000000000A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010000000000000000000A /* Secrets.swift */; };
+		B0020000000000000000000B /* WebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010000000000000000000B /* WebViewScreen.swift */; };
+		B0020000000000000000000C /* WrapperRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010000000000000000000C /* WrapperRootView.swift */; };
+		B0020000000000000000000D /* WrapperStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010000000000000000000D /* WrapperStore.swift */; };
+		B0020000000000000000000E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000004 /* GoogleService-Info.plist */; };
+		B0020000000000000000000F /* BagelFatOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B00100000000000000000005 /* BagelFatOne-Regular.ttf */; };
+		B00200000000000000000010 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010000000000000000000E /* NotificationService.swift */; };
+		B00200000000000000000011 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = B01000000000000000000001 /* AppsFlyerLib */; };
+		B00200000000000000000012 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B01000000000000000000002 /* FirebaseMessaging */; };
+		B00200000000000000000013 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B01000000000000000000003 /* FirebaseMessaging */; };
+		B00200000000000000000014 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B00100000000000000000006 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00700000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC4A0BD2FC861F6003F2BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00300000000000000000001;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B00400000000000000000004 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B00200000000000000000014 /* NotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A60AD502FD993E300B93705 /* codemagic.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		3AC4A0C52FC861F6003F2BE2 /* BirdMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC4A0CC2FC861FA003F2BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC4A0CF2FC861FA003F2BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AC4A0D72FC8620F003F2BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3AC4B0012FC861FA003F2BE2 /* BirdMedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdMedApp.swift; sourceTree = "<group>"; };
+		3AC4B0032FC861FA003F2BE2 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		3AC4B0042FC861FA003F2BE2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3AC4B0052FC861FA003F2BE2 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		3AC4B0062FC861FA003F2BE2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		3AC4B0072FC861FA003F2BE2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3AC4B0082FC861FA003F2BE2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3AC4B0092FC861FA003F2BE2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3AC4B00A2FC861FA003F2BE2 /* BirdGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdGroupsView.swift; sourceTree = "<group>"; };
+		3AC4B00B2FC861FA003F2BE2 /* CoopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopsView.swift; sourceTree = "<group>"; };
+		3AC4B00C2FC861FA003F2BE2 /* VaccinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationView.swift; sourceTree = "<group>"; };
+		3AC4B00D2FC861FA003F2BE2 /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
+		3AC4B00E2FC861FA003F2BE2 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3AC4B00F2FC861FA003F2BE2 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		3AC4B0102FC861FA003F2BE2 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		3AC4B0112FC861FA003F2BE2 /* RecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+		3AC4B0122FC861FA003F2BE2 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		3AC4B0132FC861FA003F2BE2 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		3AC4B0142FC861FA003F2BE2 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		3AC4B0152FC861FA003F2BE2 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3AC4B0162FC861FA003F2BE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3AC4B0202FC861FA003F2BE2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3AC4B0212FC861FA003F2BE2 /* MedicalSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalSafety.swift; sourceTree = "<group>"; };
+		3AC4B0222FC861FA003F2BE2 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		B00100000000000000000003 /* BirdMed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BirdMed.entitlements; sourceTree = "<group>"; };
+		B00100000000000000000004 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B00100000000000000000005 /* BagelFatOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BagelFatOne-Regular.ttf"; sourceTree = "<group>"; };
+		B00100000000000000000006 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10100000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10100000000000000000002 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		B10100000000000000000003 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+		B10100000000000000000004 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		B10100000000000000000005 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		B10100000000000000000006 /* PrePermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrePermissionView.swift; sourceTree = "<group>"; };
+		B10100000000000000000007 /* PushManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
+		B10100000000000000000008 /* PushRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushRouter.swift; sourceTree = "<group>"; };
+		B10100000000000000000009 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		B1010000000000000000000A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		B1010000000000000000000B /* WebViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewScreen.swift; sourceTree = "<group>"; };
+		B1010000000000000000000C /* WrapperRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperRootView.swift; sourceTree = "<group>"; };
+		B1010000000000000000000D /* WrapperStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperStore.swift; sourceTree = "<group>"; };
+		B1010000000000000000000E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B1010000000000000000000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC4A0C22FC861F6003F2BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00200000000000000000011 /* AppsFlyerLib in Frameworks */,
+				B00200000000000000000012 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00400000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00200000000000000000013 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC4A0BC2FC861F6003F2BE2 = {
+			isa = PBXGroup;
+			children = (
+				3A60AD502FD993E300B93705 /* codemagic.yaml */,
+				3AC4A0C72FC861F6003F2BE2 /* BirdMed */,
+				B00100000000000000000002 /* NotificationService */,
+				3AC4A0C62FC861F6003F2BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC4A0C62FC861F6003F2BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4A0C52FC861F6003F2BE2 /* BirdMed.app */,
+				B00100000000000000000006 /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC4A0C72FC861F6003F2BE2 /* BirdMed */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4B0012FC861FA003F2BE2 /* BirdMedApp.swift */,
+				3AC4B0032FC861FA003F2BE2 /* DesignSystem.swift */,
+				3AC4B0042FC861FA003F2BE2 /* Models.swift */,
+				3AC4B0052FC861FA003F2BE2 /* DataStore.swift */,
+				3AC4B0222FC861FA003F2BE2 /* DemoData.swift */,
+				3AC4B0212FC861FA003F2BE2 /* MedicalSafety.swift */,
+				3AC4B0062FC861FA003F2BE2 /* SplashView.swift */,
+				3AC4B0072FC861FA003F2BE2 /* OnboardingView.swift */,
+				3AC4B0082FC861FA003F2BE2 /* MainTabView.swift */,
+				3AC4B0092FC861FA003F2BE2 /* DashboardView.swift */,
+				3AC4B00A2FC861FA003F2BE2 /* BirdGroupsView.swift */,
+				3AC4B00B2FC861FA003F2BE2 /* CoopsView.swift */,
+				3AC4B00C2FC861FA003F2BE2 /* VaccinationView.swift */,
+				3AC4B00D2FC861FA003F2BE2 /* MedicationsView.swift */,
+				3AC4B00E2FC861FA003F2BE2 /* CalendarView.swift */,
+				3AC4B00F2FC861FA003F2BE2 /* TasksView.swift */,
+				3AC4B0102FC861FA003F2BE2 /* AlertsView.swift */,
+				3AC4B0112FC861FA003F2BE2 /* RecommendationsView.swift */,
+				3AC4B0122FC861FA003F2BE2 /* NotesView.swift */,
+				3AC4B0132FC861FA003F2BE2 /* ReportsView.swift */,
+				3AC4B0142FC861FA003F2BE2 /* ExpensesView.swift */,
+				3AC4B0152FC861FA003F2BE2 /* HistoryView.swift */,
+				3AC4B0162FC861FA003F2BE2 /* SettingsView.swift */,
+				B00100000000000000000001 /* Wrapper */,
+				B00100000000000000000004 /* GoogleService-Info.plist */,
+				B00100000000000000000005 /* BagelFatOne-Regular.ttf */,
+				B00100000000000000000003 /* BirdMed.entitlements */,
+				3AC4A0D72FC8620F003F2BE2 /* Info.plist */,
+				3AC4B0202FC861FA003F2BE2 /* PrivacyInfo.xcprivacy */,
+				3AC4A0CC2FC861FA003F2BE2 /* Assets.xcassets */,
+				3AC4A0CE2FC861FA003F2BE2 /* Preview Content */,
+			);
+			path = BirdMed;
+			sourceTree = "<group>";
+		};
+		3AC4A0CE2FC861FA003F2BE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AC4A0CF2FC861FA003F2BE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B00100000000000000000001 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B10100000000000000000001 /* AppDelegate.swift */,
+				B10100000000000000000002 /* AppsFlyerManager.swift */,
+				B10100000000000000000003 /* ConfigService.swift */,
+				B10100000000000000000004 /* NetworkMonitor.swift */,
+				B10100000000000000000005 /* NoInternetView.swift */,
+				B10100000000000000000006 /* PrePermissionView.swift */,
+				B10100000000000000000007 /* PushManager.swift */,
+				B10100000000000000000008 /* PushRouter.swift */,
+				B10100000000000000000009 /* RootViewModel.swift */,
+				B1010000000000000000000A /* Secrets.swift */,
+				B1010000000000000000000B /* WebViewScreen.swift */,
+				B1010000000000000000000C /* WrapperRootView.swift */,
+				B1010000000000000000000D /* WrapperStore.swift */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		B00100000000000000000002 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				B1010000000000000000000E /* NotificationService.swift */,
+				B1010000000000000000000F /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC4A0C42FC861F6003F2BE2 /* BirdMed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC4A0D32FC861FA003F2BE2 /* Build configuration list for PBXNativeTarget "BirdMed" */;
+			buildPhases = (
+				3AC4A0C12FC861F6003F2BE2 /* Sources */,
+				3AC4A0C22FC861F6003F2BE2 /* Frameworks */,
+				3AC4A0C32FC861F6003F2BE2 /* Resources */,
+				B00400000000000000000004 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00800000000000000000001 /* PBXTargetDependency */,
+			);
+			name = BirdMed;
+			packageProductDependencies = (
+				B01000000000000000000001 /* AppsFlyerLib */,
+				B01000000000000000000002 /* FirebaseMessaging */,
+			);
+			productName = BirdMed;
+			productReference = 3AC4A0C52FC861F6003F2BE2 /* BirdMed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00300000000000000000001 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00500000000000000000001 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				B00400000000000000000001 /* Sources */,
+				B00400000000000000000002 /* Frameworks */,
+				B00400000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			packageProductDependencies = (
+				B01000000000000000000003 /* FirebaseMessaging */,
+			);
+			productName = NotificationService;
+			productReference = B00100000000000000000006 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC4A0BD2FC861F6003F2BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3AC4A0C42FC861F6003F2BE2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B00300000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3AC4A0C02FC861F6003F2BE2 /* Build configuration list for PBXProject "BirdMed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC4A0BC2FC861F6003F2BE2;
+			packageReferences = (
+				B00900000000000000000001 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				B00900000000000000000002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3AC4A0C62FC861F6003F2BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC4A0C42FC861F6003F2BE2 /* BirdMed */,
+				B00300000000000000000001 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC4A0C32FC861F6003F2BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020000000000000000000E /* GoogleService-Info.plist in Resources */,
+				B0020000000000000000000F /* BagelFatOne-Regular.ttf in Resources */,
+				3AC4C0202FC861FA003F2BE2 /* PrivacyInfo.xcprivacy in Resources */,
+				3AC4A0D02FC861FA003F2BE2 /* Preview Assets.xcassets in Resources */,
+				3AC4A0CD2FC861FA003F2BE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00400000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC4A0C12FC861F6003F2BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00200000000000000000001 /* AppDelegate.swift in Sources */,
+				B00200000000000000000002 /* AppsFlyerManager.swift in Sources */,
+				B00200000000000000000003 /* ConfigService.swift in Sources */,
+				B00200000000000000000004 /* NetworkMonitor.swift in Sources */,
+				B00200000000000000000005 /* NoInternetView.swift in Sources */,
+				B00200000000000000000006 /* PrePermissionView.swift in Sources */,
+				B00200000000000000000007 /* PushManager.swift in Sources */,
+				B00200000000000000000008 /* PushRouter.swift in Sources */,
+				B00200000000000000000009 /* RootViewModel.swift in Sources */,
+				B0020000000000000000000A /* Secrets.swift in Sources */,
+				B0020000000000000000000B /* WebViewScreen.swift in Sources */,
+				B0020000000000000000000C /* WrapperRootView.swift in Sources */,
+				B0020000000000000000000D /* WrapperStore.swift in Sources */,
+				3AC4C0012FC861FA003F2BE2 /* BirdMedApp.swift in Sources */,
+				3AC4C0032FC861FA003F2BE2 /* DesignSystem.swift in Sources */,
+				3AC4C0042FC861FA003F2BE2 /* Models.swift in Sources */,
+				3AC4C0052FC861FA003F2BE2 /* DataStore.swift in Sources */,
+				3AC4C0222FC861FA003F2BE2 /* DemoData.swift in Sources */,
+				3AC4C0212FC861FA003F2BE2 /* MedicalSafety.swift in Sources */,
+				3AC4C0062FC861FA003F2BE2 /* SplashView.swift in Sources */,
+				3AC4C0072FC861FA003F2BE2 /* OnboardingView.swift in Sources */,
+				3AC4C0082FC861FA003F2BE2 /* MainTabView.swift in Sources */,
+				3AC4C0092FC861FA003F2BE2 /* DashboardView.swift in Sources */,
+				3AC4C00A2FC861FA003F2BE2 /* BirdGroupsView.swift in Sources */,
+				3AC4C00B2FC861FA003F2BE2 /* CoopsView.swift in Sources */,
+				3AC4C00C2FC861FA003F2BE2 /* VaccinationView.swift in Sources */,
+				3AC4C00D2FC861FA003F2BE2 /* MedicationsView.swift in Sources */,
+				3AC4C00E2FC861FA003F2BE2 /* CalendarView.swift in Sources */,
+				3AC4C00F2FC861FA003F2BE2 /* TasksView.swift in Sources */,
+				3AC4C0102FC861FA003F2BE2 /* AlertsView.swift in Sources */,
+				3AC4C0112FC861FA003F2BE2 /* RecommendationsView.swift in Sources */,
+				3AC4C0122FC861FA003F2BE2 /* NotesView.swift in Sources */,
+				3AC4C0132FC861FA003F2BE2 /* ReportsView.swift in Sources */,
+				3AC4C0142FC861FA003F2BE2 /* ExpensesView.swift in Sources */,
+				3AC4C0152FC861FA003F2BE2 /* HistoryView.swift in Sources */,
+				3AC4C0162FC861FA003F2BE2 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00400000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00200000000000000000010 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00800000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00300000000000000000001 /* NotificationService */;
+			targetProxy = B00700000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AC4A0D12FC861FA003F2BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC4A0D22FC861FA003F2BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC4A0D42FC861FA003F2BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BirdMed/BirdMed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdMed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirdMed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bird Med";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow BirdMed to access your camera to add photos to notes";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow BirdMed to access your photo library to add images to notes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbird.BirdMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AC4A0D52FC861FA003F2BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BirdMed/BirdMed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirdMed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirdMed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bird Med";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow BirdMed to access your camera to add photos to notes";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow BirdMed to access your photo library to add images to notes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbird.BirdMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00600000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbird.BirdMed.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00600000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medbird.BirdMed.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC4A0C02FC861F6003F2BE2 /* Build configuration list for PBXProject "BirdMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC4A0D12FC861FA003F2BE2 /* Debug */,
+				3AC4A0D22FC861FA003F2BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC4A0D32FC861FA003F2BE2 /* Build configuration list for PBXNativeTarget "BirdMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC4A0D42FC861FA003F2BE2 /* Debug */,
+				3AC4A0D52FC861FA003F2BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00500000000000000000001 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00600000000000000000001 /* Debug */,
+				B00600000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B00900000000000000000001 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.14.0;
+			};
+		};
+		B00900000000000000000002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B01000000000000000000001 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B00900000000000000000001 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		B01000000000000000000002 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B00900000000000000000002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B01000000000000000000003 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B00900000000000000000002 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3AC4A0BD2FC861F6003F2BE2 /* Project object */;
+}
